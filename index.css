@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #333;
+    color: #f5f5dc;
+}
+
+.mainMenu {
+    padding-left: 1em;
+    width: 11em;
+    height: 100vh;
+    background-color: #5452a5;
+}
+
+.mainMenu, .componentsMenu, .docJsMenu, .langCsharpMenu {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.mainMenu-items-top {
+    padding-top: 0.5em;
+}
+
+.mainMenu-items {
+    margin-top: 0.5em;
+}
+
+.componentsMenu, .docJsMenu, .langCsharpMenu {
+    margin-top: 0.5em;
+    margin-left: 2em;
+    display: none;
+    }
+
+.menuVisible {
+    display: block;
+}
