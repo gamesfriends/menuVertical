@@ -6,10 +6,20 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Menu Horizontal</title>
-        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/table-material.css">
 
+        <!-- Google Fonts -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
+
+        <!-- Font Menu -->
         <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap" rel="stylesheet">
+        
+        <!-- Font mainTitle -->
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+
+        <!-- Font Table -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     </head>
 
     <body>
@@ -39,7 +49,55 @@
             </nav>
         </header>
 
-        <script src="base.js"></script>
+        <article class="article">
+            <h1 class="article-mainTitle">Table-Material.</h1>
+            <h2 class="article-titleType">Tipo de componente: Table.</h2>
+            <h3 class="article-titleTheme">Recomendado Para tema: Oscuro. </h3>
+
+            <div class="article-description-cnt">
+                <p class="article-description">Descripcion:</p>
+                <p class="article-description">Es una tabla elegante, con aspecto suave, perfecta para utilizar con un tema oscuro de web. Se recomienda para un aspecto visual mas acorde, utilizar la siguiente familia de google fonts:
+                <p class="article-description">html:</p>
+                <p class="article-description">&lt;link rel="preconnect" href="https://fonts.gstatic.com"&gt;</p>
+                <p class="article-description">&lt;link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"&gt;</p>
+                <p class="article-description">css:</p>
+                <p class="article-description">font-family: 'Roboto', sans-serif;</p>
+            </div>
+
+            <p class="article-description separation">Vista previa:</p>
+
+            <div class="tableContainer">
+                <table class="tableData">
+                    <tr class="tableData-row">
+                        <th class="tableData-th1 borderRow">Status</th>
+                        <th class="tableData-th2 borderRow">Signal Name</th>
+                        <th class="tableData-th3 borderRow">Severity</th>
+                        <th class="tableData-th4 borderRow">Stage</th>
+                    </tr>
+                    <tr class="tableData-row">
+                        <td class="tabledata-cell borderRow center">Online</td>
+                        <td class="tabledata-cell borderRow">Lorem ipsum, dolor sit amet Lorem.</td>
+                        <td class="tabledata-cell borderRow center">Medium</td>
+                        <td class="tabledata-cell borderRow center">Not triaded</td>
+                    </tr>
+                    <tr class="tableData-row">
+                        <td class="tabledata-cell borderRow center">Offline</td>
+                        <td class="tabledata-cell borderRow">The baseline row height is 52dp, and the column dirg.</td>
+                        <td class="tabledata-cell borderRow center">Minor</td>
+                        <td class="tabledata-cell borderRow center">Triaded</td>
+                    </tr>
+                    <tr class="tableData-row">
+                        <td class="tabledata-cell center">Offline</td>
+                        <td class="tabledata-cell">Lorem ipsum, dolor sit amet Lorem.</td>
+                        <td class="tabledata-cell center">Higher</td>
+                        <td class="tabledata-cell center">Triaded</td>
+                    </tr>
+                </table>
+            </div>
+
+        </article>
+
+        <script src="js/base.js"></script>
 
     </body>
 

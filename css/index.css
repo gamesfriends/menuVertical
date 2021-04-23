@@ -6,14 +6,18 @@
 body {
     background-color: #333;
     color: #f5f5dc;
-    font-family: 'Antonio', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 2em;
 }
 
 .mainMenu {
+    font-family: 'Antonio', sans-serif;
     padding-left: 1em;
     width: 11em;
     height: 100vh;
-    background-color: #5452a5;
+    background-color: #3c3b77;
+    position: fixed;
+    left: 0;
 }
 
 .mainMenu, .componentsMenu, .docJsMenu, .langCsharpMenu {
@@ -64,4 +68,41 @@ body {
     100% {
         opacity: 100%;;
     }
+}
+
+.article {
+    margin-left: 14em;
+}
+
+.article-mainTitle, .article-titleType, .article-titleTheme {
+    font-family: 'Playfair Display', serif;
+}
+
+.article-mainTitle {
+    font-size: 3em;
+    margin-bottom: 0.8em;
+}
+
+.article-titleType {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.article-titleTheme {
+    font-size: 1em;
+    margin-bottom: 0.8em;
+}
+
+.article-description-cnt {
+    background-color: #504f4f2d;
+}
+
+.article-description {
+    font-size: 1.2em;
+    line-height: 1.5em;
+}
+
+.separation {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
 }
